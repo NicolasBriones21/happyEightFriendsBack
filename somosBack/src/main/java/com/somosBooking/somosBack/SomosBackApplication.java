@@ -8,6 +8,8 @@ public class SomosBackApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SomosBackApplication.class, args);
+		
+		
 	}
 
 }
