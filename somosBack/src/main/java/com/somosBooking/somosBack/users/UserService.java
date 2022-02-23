@@ -59,9 +59,7 @@ public class UserService {
         return null;
     }
 
-    public void register(int id, String username, Usertype usertype, String userMail, String phone, String password){
-        User auxUser = new User(id, username, usertype, userMail, phone, password);
-
-        userList.add(auxUser);
+    public void register(User user){
+        userList.add(user);
     }
 }

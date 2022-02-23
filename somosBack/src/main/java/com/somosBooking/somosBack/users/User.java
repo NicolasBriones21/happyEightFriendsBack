@@ -1,7 +1,7 @@
 package com.somosBooking.somosBack.users;
 
-public class User {
 
+public class User {
     int id;
     String userName;
     Usertype userType;
